@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  font-family: arial;
+  color: white
+}
+
+
+h1 {
+  color: grey;
+  font-family: verdana;
+  margin-top: -70px;
+  text-align: center;
+}
+
+
+.maindiv {
+  width: 450px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.maindiv div {
+  margin-top: 20px;
+}
+
+
+.maindiv input {
+  margin-left: 20px;
+}
+
+
+.maindiv .amount input {
+  margin-left: 58px;
+}
+
+
+.maindiv .no-of-years select {
+  margin-left: 25px;
+}
+
+.maindiv button {
+  margin-top: 20px;
+}
+
+
+
+.output-text {
+  margin-top: 20px;
+}
+
+
+.yellow-highlight {
+  background-color: yellow;
+}
+
+
+
+
+footer {
+  margin-top: 100px;
+}

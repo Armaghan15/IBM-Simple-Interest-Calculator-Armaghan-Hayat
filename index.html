@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Any relevant title you want to give</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="maindiv">
+    <h1>Simple Interest Calculator</h1>
+
+    <div class="amount">
+      <label for="principal">Amount</label>
+      <input type="number" id="principal"> <br />
+    </div>
+
+    <div class="interest">
+      <label for="rate">Interest Rate</label>
+      <input type="range" id="rate" min="minval" max="maxval" value="default_val"><span id="rate_val">50%</span>
+    </div>
+
+
+    <div class="no-of-years">
+      <label for="years">No. of Years</label>
+      <select id="years">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </div>
+
+    <button id="submitButton">Compute Interest</button>
+    <span id="result"></span>
+
+
+    <footer>
+
+      &#169; This Calculator belongs to Armaghan Hayat
+
+    </footer>
+  </div>
+
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
